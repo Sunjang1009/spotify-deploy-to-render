@@ -95,7 +95,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=f'postgres://{os.environ['DB_USER']}:{os.environ['DB_PW']}@{os.environ['DB_HOST']}/spotify?sslmode=require', conn_max_age=600, conn_health_checks=True
+        default=f"postgres://{os.environ['DB_USER']}:{os.environ['DB_PW']}@{os.environ['DB_HOST']}/spotify?sslmode=require", conn_max_age=600, conn_health_checks=True
     ),
     # below was from GA lecture
 #   'default': {
