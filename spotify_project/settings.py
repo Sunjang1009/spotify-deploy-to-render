@@ -84,7 +84,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'spotify_project.wsgi.application'
 
-CORS_ALLOWED_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Database
